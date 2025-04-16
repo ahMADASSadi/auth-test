@@ -1,0 +1,17 @@
+*.py[cod]
+__pycache__/
+*.pyc
+
+*.log
+*.pot
+*.pyc
+
+.env
+
+db.sqlite3
+db.sqlite3-journal
+
+**/migrations/*
+!**/migrations/__init__.py
+
+*.lock
