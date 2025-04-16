@@ -15,3 +15,5 @@ db.sqlite3-journal
 !**/migrations/__init__.py
 
 *.lock
+
+bruno.json

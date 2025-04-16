@@ -16,3 +16,10 @@
 > - `/auth/set-password/`
 > - `/auth/login/`
 > - `/auth/profile/me/`
+
+## API DOC
+
+API endpoints are in the API TEST folder
+
+> [!IMPORTANT]
+> i DID NOT and WILL NOT use Postman for API testing because it needs login and syncing with server which i found ridiculous. Therefore, all the APIs are tested using `Bruno`

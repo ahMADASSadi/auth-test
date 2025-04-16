@@ -1,0 +1,22 @@
+meta {
+  name: OTP Request
+  type: http
+  seq: 2
+}
+
+post {
+  url: 127.0.0.1:8000/auth/send/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "phone_number":"09111111111"
+  }
+}
+
+body:multipart-form {
+  password: 13801121
+  phone_number: 09138038122
+}

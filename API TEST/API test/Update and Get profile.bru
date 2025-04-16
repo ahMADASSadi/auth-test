@@ -1,0 +1,23 @@
+meta {
+  name: Update and Get profile
+  type: http
+  seq: 5
+}
+
+patch {
+  url: 127.0.0.1:8000/auth/profile/me/
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0OTA0OTQ2LCJpYXQiOjE3NDQ4MTg1NDYsImp0aSI6ImM5YjgwYmQ5YjczMjRkYzRhYzRjNWUxYjk4OTdkNzQ0IiwidXNlcl9pZCI6Mn0.eExXg2AGiDHiH-yp0xykmh67gVOLdlGp_lN13F6VNxY
+}
+
+body:json {
+  {
+    "first_name": "test",
+    "last_name": "test",
+    "email": "test@gmail.com"
+  }
+}

@@ -1,0 +1,18 @@
+meta {
+  name: OTP Verify
+  type: http
+  seq: 3
+}
+
+post {
+  url: 127.0.0.1:8000/auth/verify/
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "phone_number": "09111111111",
+    "otp": "792015"
+  }
+}
